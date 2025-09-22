@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+💳️TropicalFish_🐠_DebitCard💳️
+--------------------------------------------------------------------------------
+⚠️ Primeiro O que o projeto fará? ⚠️
+--------------------------------------------------------------------------------
+  💵 O banco como outros vai possibilitar seus usuarios a: 💵
+  ------------------------------------------------------------------------------
+  1: Sistema de contas.
+  ------------------------------------------------------------------------------
+  2: Fazer receber e transfirir.
+  ------------------------------------------------------------------------------
+  3: Sistema de rende pasiva com base em horarios.
+  ------------------------------------------------------------------------------
+  4: Um linha de tempo com todas as açoes feitas pelo usuarios.
+--------------------------------------------------------------------------------
+⚠️ Em ressumo sera um banco de debito simplificado
+--------------------------------------------------------------------------------
+ 🛠️ Como fazer cada coisa: 🛠️
+  1: As contas sera feitas com sistemas proprios ultilizando JWT e Outh2.
+  ------------------------------------------------------------------------------
+  :2: Usuario tera uma classe nela ele tera seu saldo,
+  e com base nisso sera manipulado.
+  ------------------------------------------------------------------------------
+  3: Com base em uma logica/loop basico, a cada 30 dias sera adicionado no saldo,
+  do usuario logado um valor com base no seu saldo e uns calculos.
+  ------------------------------------------------------------------------------
+  4: Uma clase/banco de dados sera as descriçoes e cada trasferencias sera
+  chamado o metodo de criaçao de descriçoes automatico com base em dados.
+--------------------------------------------------------------------------------
+🧾Na clase de descriçoes teremos:🧾
+--------------------------------------------------------------------------------
+  ID, NOME, DESCRIÇAO, VALOR, ORIGEM(quem enviou?)
+--------------------------------------------------------------------------------
+🫂Na classe usuario teremos:🫂
+--------------------------------------------------------------------------------
+  ID, NOME, SALDO, LOGIN(email ou outro), PASSWORD(senha), IDADE
+--------------------------------------------------------------------------------
